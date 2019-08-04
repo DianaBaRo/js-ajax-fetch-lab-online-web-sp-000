@@ -8,6 +8,7 @@ function getToken() {
   return '';
 }
 
+//function post data
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
   //use fetch to fork it!
@@ -29,6 +30,7 @@ function showResults(json) {
   }</a>`;
 }
 
+//function to post data
 function createIssue() {
   //use this function to create an issue based on the values input in index.html
   const repo = `${user}/js-ajax-fetch-lab`;
@@ -49,6 +51,7 @@ function createIssue() {
     .then(json => getIssues());
 }
 
+//function to get data
 function getIssues() {
   //once an issue is submitted, fetch all open issues to see the issues you are creating
   const repo = `${user}/js-ajax-fetch-lab`;
