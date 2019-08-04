@@ -1,6 +1,6 @@
 const baseURL = 'https://api.github.com';
 const user = 'dianabaro';
- 
+
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
